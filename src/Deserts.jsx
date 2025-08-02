@@ -11,7 +11,7 @@ function Deserts(){
         <div className="flex space-x-10 m-10">
         <div className="flex-col items-center bg-amber-50 h-88">
          <div className='relative'>
-               <img src="/GulabJamun.jpg" className="h-60 w-90" />
+               <img src={import.meta.env.BASE_URL + "GulabJamun.jpg"} className="h-60 w-90" />
                <FavoriteBorderIcon className="absolute top-2 right-2 text-white cursor-pointer rounded-full p-1" />
          </div>
             
@@ -25,7 +25,7 @@ function Deserts(){
 
          <div className="flex-col items-center  bg-amber-50 h-88">
             <div className='relative'>
-            <img src="/chocolateTiramisu.webp" className="h-60 w-90"/>
+            <img src={import.meta.env.BASE_URL + "chocolateTiramisu.webp"} className="h-60 w-90"/>
               <FavoriteBorderIcon className="absolute top-2 right-2 text-white cursor-pointer rounded-full p-1" />
             </div>
             
@@ -40,7 +40,7 @@ function Deserts(){
 
          <div className="flex-col items-center  bg-amber-50 h-88">
             <div className='relative'>
-            <img src="/churos.jpg" className="h-60 w-90"/>
+            <img src={import.meta.env.BASE_URL + "churos.jpg"} className="h-60 w-90"/>
              <FavoriteBorderIcon className="absolute top-2 right-2 text-white cursor-pointer  p-1" />
             </div>
              <p className="text-l font-bold mt-2 text-amber-900 ml-2">Churros</p>
@@ -54,7 +54,7 @@ function Deserts(){
 
          <div className="flex-col items-center  bg-amber-50 h-88">
             <div className='relative'>
-            <img src="/lamingtons.jpg" className="h-60 w-90"/>
+            <img src={import.meta.env.BASE_URL + "lamingtons.jpg"} className="h-60 w-90"/>
              <FavoriteBorderIcon className="absolute top-2 right-2 text-white cursor-pointer  p-1" />
 
             </div>

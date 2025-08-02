@@ -9,19 +9,19 @@ const data = [
   {
     name: "Jane Adams",
     role: "Freelancer",
-    image: "/person1.jpg", 
+    image: import.meta.env.BASE_URL + "person1.jpg", 
     text: "I dropped by to have a cappuccino and honestly, after 30 days here we did not have high expectations. but if this cappuccino was served, i would be just as satisfied! great place with perfectly normal prices that i recommend!"
   },
   {
     name: "Sam Williams",
     role: "Entrepreneur",
-    image: "/person2.jpg",
+    image: import.meta.env.BASE_URL + "person2.jpg",
     text: "I've been ordering beans from you for ten years. the quality of the product is consistently high! i’m grateful for the care that is apparently put into the roasts and the excellent customer service."
   },
   {
     name: "Angela Gonzales",
     role: "Manager",
-    image: "/person3.jpg",
+    image: import.meta.env.BASE_URL + "person3.jpg",
     text: "I've been ordering beans from you for ten years. the quality of the product is consistently high! i’m grateful for the care that is apparently put into the roasts and the excellent customer service."
   }
 ];

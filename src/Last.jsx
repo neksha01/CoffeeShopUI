@@ -4,7 +4,7 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 function Last(){
     return(
         <div className="bg-[#EDE5DB] h-60 flex justify-between  mt-10 overflow-hidden">
-            <img src="/beans1.png"className="h-60 object-contain"/>
+            <img src={import.meta.env.BASE_URL + "beans1.png"}className="h-60 object-contain"/>
              <div className="text-center max-w-md space-y-5">
         <h2 className="text-3xl font-bold text-amber-950 mt-12">
            Join in and get 15% Off
@@ -17,7 +17,7 @@ function Last(){
         </div>
         
       </div>
-            <img src="/beans2.png" className="h-full object-contain " />
+            <img src={import.meta.env.BASE_URL + "beans2.png"} className="h-full object-contain " />
 
         </div>
     )
